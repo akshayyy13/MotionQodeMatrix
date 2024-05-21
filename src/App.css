@@ -1,0 +1,101 @@
+/* write your css here */
+@import url("https://fonts.googleapis.com/css2?family=Sara&family=Outfit:wght@300;400;500;600;700&display=swap");
+
+.highlightText {
+  background-image: linear-gradient(60deg, #f87516 26%, #5e11ff 50%);
+  background-clip: text;
+  color: transparent;
+}
+.sara-font {
+  font-family: "Sara", serif;
+}
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+}
+.landingText {
+  font-size: 35px;
+  line-height: 55px;
+}
+.purchaseHead {
+  font-size: 25px;
+  line-height: 45px;
+}
+.displayHead {
+  font-size: 25px;
+  line-height: 55px;
+}
+.supportHead {
+  font-size: 20px;
+  line-height: 40px;
+}
+.featureHead{
+  font-size: 25px;
+  line-height: 45px;
+}
+
+@media only screen and (min-width: 767px) {
+  .landingText {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .purchaseHead {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .displayHead {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .supportHead {
+  font-size: 25px;
+  line-height: 40px;
+}
+.featureHead{
+  font-size: 30px;
+  line-height: 50px;
+}
+}
+@media only screen and (min-width: 1024px) {
+  .landingText {
+    font-size: 55px;
+    line-height: 75px;
+  }
+  .purchaseHead {
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .displayHead {
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .featureHead{
+  font-size: 35px;
+  line-height: 55px;
+}
+}
+
+@media only screen and (min-width: 1366px) {
+  .landingText {
+    font-size: 65px;
+    line-height: 85px;
+  }
+  .purchaseHead {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .displayHead {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .featureHead{
+  font-size: 40px;
+  line-height: 60px;
+}
+}
+@media only screen and (max-width: 480px)
+{
+  .m480{
+    text-align: center;
+  }
+}
